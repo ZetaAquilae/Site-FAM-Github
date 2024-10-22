@@ -3,31 +3,20 @@ a{
     text-decoration: none;
 }
 
-nav ul li {
-    list-style-type: none;
+#container{
+    max-width: 800px;
+    margin: auto;
 }
 
-#nav-main ul{
+#logo{
+    font-size: large;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navegacao-div{
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-#nav-main li {
-    /*width: 20px;
-    height: 10px;
-  margin: 0;  
-  display: flex;
-    */
-    background-color: lightblue;
-    
-    
-    padding: 10px;
-    
-    text-align: center;
-}
-
-/*#nav-main ul li a{
-    padding: 0px;
-    margin: 0px;
-}*/
-
