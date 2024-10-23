@@ -3,9 +3,15 @@ a{
     text-decoration: none;
 }
 
+body{
+    background-color: beige;
+}
+
 #container{
     max-width: 800px;
     margin: auto;
+    background-color: white;
+    padding: 1% 2%;
 }
 
 #logo{
@@ -19,4 +25,27 @@ a{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#login-nav{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#login-nav a{
+    color: white;
+}
+
+#curso-nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    color: brown;
 }
