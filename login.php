@@ -1,17 +1,14 @@
 <?php
 require_once('geral/connectdb.php');
 
-// Start the session
 session_start();
-
-// Clear the error message
 $error_msg = "";
 
-// If the user isn't logged in, try to log them in
+
 if (!isset($_SESSION['id_user'])) {
 
     if (isset($_POST['submit'])) {
-        // Connect to the database
+        
         $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
         $email = mysqli_real_escape_string($dbc, trim($_POST['email']));
@@ -25,7 +22,7 @@ if (!isset($_SESSION['id_user'])) {
             $data = mysqli_query($dbc, $query);
 
             if (mysqli_num_rows($data) == 1) {
-                // The log-in is OK so set the user ID and username session vars (and cookies), and redirect to the home page
+               
                 $row = mysqli_fetch_array($data);
 
                 if ($row['senha'] === SHA1($senha)) {
@@ -48,11 +45,11 @@ if (!isset($_SESSION['id_user'])) {
                 }
             } else {
                 $error_msg = 'E-mail ou nome de usuário inválidos. Tente novamente.';
-            } //else
-        }  //if (!empty($user_username) && !empty($user_password))
+            } 
+        }  
         else {
             $error_msg = 'Você precisa digitar o nome de usuário e senha para entrar.';
-        } //else
+        } 
 
     }
 }
@@ -91,14 +88,14 @@ if (!isset($_SESSION['id_user'])) {
             <h1>Login</h1>
 
             <?php
-            // If the session var is empty, show any error message and the log-in form; otherwise confirm the log-in
+           
             if (empty($_SESSION['id_usuario'])) {
                 echo '<p class="texto-alerta">' . $error_msg . '</p>';
             ?>
 
                 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
-                    <label for="email">e-mail:</label><br>
+                    <label for="email">E-mail:</label><br>
                     <input type="text" name="email" value="<?php if (!empty($email)) echo $email; ?>"><br>
                     <label for="senha">Senha:</label><br>
                     <input type="password" name="senha"><br>
@@ -111,8 +108,8 @@ if (!isset($_SESSION['id_user'])) {
                 
             <?php
             } else {
-                // Confirm the successful log-in
-                echo ('<p>Você está logado como ' . $_SESSION['email'] . '. <a href="curso.php">Ir para o curso</a>.</p>');
+                
+                echo ('<p class="mensagens">Você está logado como ' . $_SESSION['email'] . '. <a href="curso.php">Ir para o curso</a>.</p>');
             }
 
             mysqli_close($dbc);
