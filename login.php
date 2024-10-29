@@ -101,7 +101,7 @@ if (!isset($_SESSION['id_user'])) {
                     <label for="email">e-mail:</label><br>
                     <input type="text" name="email" value="<?php if (!empty($email)) echo $email; ?>"><br>
                     <label for="senha">Senha:</label><br>
-                    <input type="senha" name="senha"><br>
+                    <input type="password" name="senha"><br>
 
                     <input type="submit" value="Entrar" name="submit">
 
@@ -112,7 +112,7 @@ if (!isset($_SESSION['id_user'])) {
             <?php
             } else {
                 // Confirm the successful log-in
-                echo ('<p class="login">Você está logado como ' . $_SESSION['email'] . '.</p>');
+                echo ('<p>Você está logado como ' . $_SESSION['email'] . '. <a href="curso.php">Ir para o curso</a>.</p>');
             }
 
             mysqli_close($dbc);
