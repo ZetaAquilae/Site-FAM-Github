@@ -83,7 +83,6 @@ if (!isset($_SESSION['id_user'])) {
             </div>
         </header>
 
-        <main>
 
             <?php
            
@@ -93,11 +92,17 @@ if (!isset($_SESSION['id_user'])) {
             } else {
                
                 echo ('<p class="mensagens">Você está logado como ' . $_SESSION['email'] . '.</p>');
+                include ('nav.php');
 
             ?>
 
+
+        <main>
+
+
 <h1>Lição 1</h1>
 
+        </main>
             <?php
 
 
@@ -106,13 +111,10 @@ if (!isset($_SESSION['id_user'])) {
             mysqli_close($dbc);
             ?>
 
-        </main>
+
 
         <footer>
-            <p id="copyright">Todos os direitos reservados <script>
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
+            <p id="copyright">Todos os direitos reservados <script>document.write(new Date().getFullYear());</script></p>
         </footer>
 
     </div>
