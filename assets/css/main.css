@@ -1,116 +1,161 @@
 
-a{
+
+a {
     text-decoration: none;
-    color: blue;
+    color          : blue;
 }
 
-a:visited{
+a:visited {
     color: blueviolet;
 }
 
-a:hover{
+a:hover {
     color: brown;
 }
 
-body{
+body {
     background-color: beige;
+    font-family     : 'Times New Roman', Times, serif;
+    font-size       : 100%;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-form{
+form {
     text-align: center;
 }
 
-input[type=text], input[type=password]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+input[type=text],
+input[type=password] {
+    width     : 100%;
+    padding   : 12px 20px;
+    margin    : 8px 0;
     box-sizing: border-box;
 }
 
 input[type=submit] {
     background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
-    margin: 4px 2px;
-  }
-
-  nav{
-    text-decoration: none;
-  }
-
-  ul{
-    list-style-type: none;
-  }
-
-#container{
-    max-width: 800px;
-    margin: auto;
-    background-color: white;
-    padding: 1% 2%;
+    border          : none;
+    color           : white;
+    padding         : 15px 40px;
+    text-align      : center;
+    text-decoration : none;
+    font-size       : 16px;
+    border-radius   : 25px;
+    cursor          : pointer;
+    margin          : 4px 2px;
 }
 
-#logo{
-    font-size: large;
-    color: blue;
+nav {
+    text-decoration: none;
+    float          : left;
+    margin: 0 10px 0 0;
+}
+
+ul {
+    list-style-type : none;
+    margin          : 0 0 0 0;
+    padding         : 0 0 4px 0;
+    background-color: lightblue;
+
+}
+
+li a {
+    display   : block;
+    width     : 80px;
+    padding   : 4px;
+    text-align: center;
+    color     : black;
+}
+
+li a:visited {
+    color: black;
+}
+
+li a:hover {
+    background-color: brown;
+    color           : white;
+}
+
+.modulo{
+    background-color: blue;
+    color: white;
+}
+
+.modulo a, .modulo a:visited {
+    color: white;
+}
+
+main {
+    text-align: justify;
+    min-height: 400px;
+}
+
+main ul {
+    background-color: white;
+}
+
+#container {
+    max-width       : 800px;
+    margin          : auto;
+    background-color: white;
+    padding         : 1% 2%;
+}
+
+#logo {
+    font-size  : large;
+    color      : blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#navegacao-div{
-    display: flex;
-    align-items: center;
+#navegacao-div {
+    display        : flex;
+    align-items    : center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap      : wrap;
 }
 
-#login-nav{
+#login-nav {
     background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
+    border          : none;
+    color           : white;
+    padding         : 15px 40px;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 16px;
+    border-radius   : 25px;
+    cursor          : pointer;
 }
 
-#login-nav a{
+#login-nav a {
     color: white;
 }
 
-#curso-nav{
+#curso-nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:x-large;
-    color: brown;
+    font-size  : x-large;
+    color      : brown;
 }
 
-#banner-index{
+#banner-index {
     display: block;
-    margin: auto;
+    margin : auto;
 }
 
-#copyright{
-    font-size: small;
+#copyright {
+    font-size : small;
     text-align: center;
     margin-top: 50px;
 }
 
-.mensagens{
+.mensagens {
     text-align: center;
 }
 
