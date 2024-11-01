@@ -53,8 +53,8 @@ $error_msg = "";
                     <li><a href="m1-a4.php">Lição 4</a></li>
                     <li><a href="m1-a5.php">Lição 5</a></li>
                     <li><a href="m1-a6.php">Lição 6</a></li>
-                    <li class="nav-active"><a href="m1-a7.php">Lição 7</a></li>
-                    <li><a href="m1-a8.php">Lição 8</a></li>
+                    <li><a href="m1-a7.php">Lição 7</a></li>
+                    <li class="nav-active"><a href="m1-a8.php">Lição 8</a></li>
                     <li><a href="m1-a9.php">Lição 9</a></li>
                     <li><a href="m1-a10.php">Lição 10</a></li>
                     <li class="modulo"><a href="../modulo2/m2-a1.php">Módulo 2</a></li>
@@ -67,68 +67,60 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 1</h2>
-                <h3>Lição 7 - Na Cozinha</h3>
+                <h3>Lição 8 - Transporte</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender vocabulário e expressões comuns usados na cozinha.</p>
+                <p>Aprender vocabulário e expressões relacionadas a diferentes meios de transporte.</p>
 
                 <h4>Conteúdo:</h4>
 
                 <h4>1. Vocabulário Comum:</h4>
 
-                <p>Stove (fogão)</p>
+                <p>Car (carro)</p>
 
-                <p>Oven (forno)</p>
+                <p>Bus (ônibus)</p>
 
-                <p>Refrigerator (geladeira)</p>
+                <p>Train (trem)</p>
 
-                <p>Sink (pia)</p>
+                <p>Bicycle (bicicleta)</p>
 
-                <p>Pot (panela)</p>
+                <p>Airplane (avião)</p>
 
-                <p>Pan (frigideira)</p>
+                <p>Boat (barco)</p>
 
-                <p>Knife (faca)</p>
+                <p>Subway (metrô)</p>
 
-                <p>Fork (garfo)</p>
+                <p>Taxi (táxi)</p>
 
-                <p>Spoon (colher)</p>
+                <p>Ticket (bilhete)</p>
 
-                <p>Plate (prato)</p>
+                <p>Station (estação)</p>
 
-                <p>Glass (copo)</p>
+                <p>Airport (aeroporto)</p>
 
-                <p>Cup (xícara)</p>
-
-                <p>Cook (cozinhar)</p>
-
-                <p>Bake (assar)</p>
-
-                <p>Boil (ferver)</p>
-
-                <p>Fry (fritar)</p>
+                <p>Traffic (trânsito)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>Can you pass me the salt? (Você pode me passar o sal?)</p>
+                <p>How do you get to work? (Como você vai para o trabalho?)</p>
 
-                <p>I need a knife to cut the vegetables. (Eu preciso de uma faca para cortar os legumes.)</p>
+                <p>I take the bus. (Eu pego o ônibus.)</p>
 
-                <p>Preheat the oven to 180 degrees. (Pré-aqueça o forno a 180 graus.)</p>
+                <p>Where is the train station? (Onde fica a estação de trem?)</p>
 
-                <p>Boil the water for pasta. (Ferva a água para o macarrão.)</p>
+                <p>I need a taxi. (Eu preciso de um táxi.)</p>
 
-                <p>She is baking a cake. (Ela está assando um bolo.)</p>
+                <p>Do you have a ticket? (Você tem um bilhete?)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: Can you help me in the kitchen? <br>
-                    Person B: Sure! What do you need? <br>
-                    Person A: I need a knife to cut the vegetables and a pot to boil the water. <br>
-                    Person B: Here is the knife. The pot is on the stove. <br>
-                    Person A: Thanks! Can you also preheat the oven to 180 degrees? <br>
-                    Person B: No problem!</p>
+                <p>Person A: How do you get to work? <br>
+                    Person B: I usually take the bus, but sometimes I ride my bicycle. <br>
+                    Person A: Where is the nearest bus stop? <br>
+                    Person B: It's just around the corner. Do you need a ticket? <br>
+                    Person A: Yes, I do. Where can I buy one? <br>
+                    Person B: You can get one at the station or online.</p>
                 <br><br>
                 <hr>
                 <h2>Exercícios</h2>
@@ -137,51 +129,52 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'Qual utensílio você usa para cortar vegetais?',
+                        'Question' => 'Qual veículo você usa para voar para outro país?',
                         'Answers' => array(
-                            'A' => 'Fork',
-                            'B' => 'Knife',
-                            'C' => 'Spoon'
+                            'A' => 'Airplane',
+                            'B' => 'Car',
+                            'C' => 'Bicycle'
                         ),
-                        'CorrectAnswer' => 'B'
+                        'CorrectAnswer' => 'A'
                     ),
                     2 => array(
-                        'Question' => 'Onde você assa um bolo?',
+                        'Question' => 'Onde você espera o trem?',
                         'Answers' => array(
-                            'A' => 'Stove',
-                            'B' => 'Refrigerator',
-                            'C' => 'Oven'
+                            'A' => 'Airport',
+                            'B' => 'Station',
+                            'C' => 'Stop'
                         ),
-                        'CorrectAnswer' => 'C'
+                        'CorrectAnswer' => 'B'
                     ),
                     3 => array(
-                        'Question' => 'Qual item você usa para beber água?',
+                        'Question' => 'O que você precisa para viajar em transporte público?',
                         'Answers' => array(
-                            'A' => 'Plate',
-                            'B' => 'Glass',
-                            'C' => 'Pan'
+                            'A' => 'Ticket',
+                            'B' => 'License',
+                            'C' => 'Passport'
                         ),
-                        'CorrectAnswer' => 'B'
+                        'CorrectAnswer' => 'A'
                     ),
                     4 => array(
-                        'Question' => 'Que ação você toma ao fazer macarrão?',
+                        'Question' => 'Qual meio de transporte tem duas rodas?',
                         'Answers' => array(
-                            'A' => 'Fry',
-                            'B' => 'Boil',
-                            'C' => 'Bake'
-                        ),
-                        'CorrectAnswer' => 'B'
-                    ),
-                    5 => array(
-                        'Question' => 'Onde você armazena os alimentos para mantê-los refrigerados?',
-                        'Answers' => array(
-                            'A' => 'Sink',
-                            'B' => 'Oven',
-                            'C' => 'Refrigerator'
+                            'A' => 'Bus',
+                            'B' => 'Train',
+                            'C' => 'Bicycle'
                         ),
                         'CorrectAnswer' => 'C'
+                    ),
+                    5 => array(
+                        'Question' => 'O que você pega quando quer uma viagem rápida e direta?',
+                        'Answers' => array(
+                            'A' => 'Taxi',
+                            'B' => 'Boat',
+                            'C' => 'Bus'
+                        ),
+                        'CorrectAnswer' => 'A'
                     )
                 );
+
 
 
                 if (isset($_POST['answers'])) {
@@ -233,7 +226,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m1-a8.php" class="proximo-link">Ir para a lição 8</a></p>
+                    <p><a href="m1-a9.php" class="proximo-link">Ir para a lição 9</a></p>
                 </div>
 
             </main>
