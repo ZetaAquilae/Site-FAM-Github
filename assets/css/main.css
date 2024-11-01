@@ -57,6 +57,10 @@ nav {
     margin         : 0 10px 0 0;
 }
 
+li.nav-active{
+    background-color: chocolate;
+}
+
 ul {
     list-style-type : none;
     margin          : 0 0 0 0;

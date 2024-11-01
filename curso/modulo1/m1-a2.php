@@ -47,8 +47,8 @@ $error_msg = "";
                 <ul>
                     <li class="modulo"><a href="../../curso.php">Início</a></li>
                     <li class="modulo"><a href="m1-a1.php">Módulo 1</a></li>
-                    <li class="nav-active"><a href="m1-a1.php">Lição 1</a></li>
-                    <li><a href="m1-a2.php">Lição 2</a></li>
+                    <li><a href="m1-a1.php">Lição 1</a></li>
+                    <li class="nav-active"><a href="m1-a2.php">Lição 2</a></li>
                     <li><a href="m1-a3.php">Lição 3</a></li>
                     <li><a href="m1-a4.php">Lição 4</a></li>
                     <li><a href="m1-a5.php">Lição 5</a></li>
@@ -67,68 +67,46 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 1</h2>
-                <h3>Lição 1 - Present Simple (Simple Present)</h3>
+                <h3>Lição 2 - Introduções Básicas</h3>
 
-                <h4><strong>Objetivo:</strong></h4>
-                <p>Aprender a usar o tempo verbal Present Simple (presente simples) para falar sobre hábitos, rotinas e fatos gerais.</p>
-                <h4><strong>Conteúdo:</strong></h4>
-                <p><strong>1. Estrutura do Present Simple:</strong></p>
-                <ul>
-                    <li>
-                        <p><strong>Afirmativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Sujeito + verbo (na forma base) + complemento</p>
-                            </li>
-                            <li>
-                                <p>Ex.: I work, She plays, They study</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p><strong>Negativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Sujeito + do/does + not + verbo (na forma base) + complemento</p>
-                            </li>
-                            <li>
-                                <p>Ex.: I do not (don&rsquo;t) work, She does not (doesn&rsquo;t) play, They do not (don&rsquo;t) study</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p><strong>Interrogativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Do/Does + sujeito + verbo (na forma base) + complemento?</p>
-                            </li>
-                            <li>
-                                <p>Ex.: Do you work?, Does she play?, Do they study?</p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <p><strong>2. Uso do Present Simple:</strong></p>
-                <ul>
-                    <li>
-                        <p>Para falar sobre hábitos e rotinas.</p>
-                    </li>
-                    <li>
-                        <p>Para expressar verdades universais ou fatos gerais.</p>
-                    </li>
-                </ul>
-                <p><strong>3. Exemplos:</strong></p>
-                <ul>
-                    <li>
-                        <p>I wake up at 7 AM every day. (Eu acordo às 7h todos os dias.)</p>
-                    </li>
-                    <li>
-                        <p>She likes chocolate. (Ela gosta de chocolate.)</p>
-                    </li>
-                    <li>
-                        <p>They study English on weekends. (Eles estudam inglês nos fins de semana.)</p>
-                    </li>
-                </ul>
+                <h4>Objetivo3:</h4>
+
+                <p>Aprender a se apresentar e conhecer outras pessoas em inglês.</p>
+
+                <h4>Conteúdo:</h4>
+                <h4>1. Saudações:</h4>
+
+                <p>Hello / Hi</p>
+
+                <p>Good morning / Good afternoon / Good evening</p>
+
+                <p>How are you?</p>
+
+                <h4>2. Apresentando-se:</h4>
+
+                <p>My name is...</p>
+
+                <p>I am from...</p>
+
+                <p>I am ... years old.</p>
+
+                <h4>3. Perguntando sobre a outra pessoa:</h4>
+
+                <p>What is your name?</p>
+
+                <p>Where are you from?</p>
+
+                <p>How old are you?</p>
+
+
+                <h4>Exemplo de Diálogo:</h4>
+                <p>John: Hello! My name is John. What is your name? </p>
+                <p>Sarah: Hi John! My name is Sarah. </p>
+                <p>John: Nice to meet you, Sarah. Where are you from? </p>
+                <p>Sarah: I am from Brazil. And you? </p>
+                <p>John: I am from the USA. How old are you, Sarah? </p>
+                <p>Sarah: I am 25 years old. And you? </p>
+                <p>John: I am 30 years old.</p>
 
                 <br><br>
                 <hr>
@@ -138,53 +116,52 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'He _______ (to play) soccer every Saturday.',
+                        'Question' => 'Hello! My name _____ John.',
                         'Answers' => array(
-                            'A' => 'plays',
-                            'B' => 'play',
-                            'C' => 'played'
-                        ),
-                        'CorrectAnswer' => 'A'
-
-                    ),
-                    2 => array(
-                        'Question' => 'Qual a forma correta da frase negativa: "They (to go) to school by bus"?',
-                        'Answers' => array(
-                            'A' => 'They do go to school by bus.',
-                            'B' => 'They does not go to school by bus.',
-                            'C' => 'They do not go to school by bus.'
-                        ),
-                        'CorrectAnswer' => 'C'
-                    ),
-                    3 => array(
-                        'Question' => '______ (to do) you like pizza?',
-                        'Answers' => array(
-                            'A' => 'Do',
-                            'B' => 'Does',
-                            'C' => 'Doing'
-                        ),
-                        'CorrectAnswer' => 'A'
-                    ),
-                    4 => array(
-                        'Question' => 'She _______ (to work) at a bank.',
-                        'Answers' => array(
-                            'A' => 'work',
-                            'B' => 'works',
-                            'C' => 'worked'
+                            'A' => 'am',
+                            'B' => 'is',
+                            'C' => 'are'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
-                    5 => array(
-                        'Question' => '_____ he ______ (to study) English every day?',
+                    2 => array(
+                        'Question' => 'I _____ from Brazil.',
                         'Answers' => array(
-                            'A' => 'Do / study',
-                            'B' => 'Does / studies',
-                            'C' => 'Does / study'
+                            'A' => 'am',
+                            'B' => 'is',
+                            'C' => 'are'
+                        ),
+                        'CorrectAnswer' => 'A'
+                    ),
+                    3 => array(
+                        'Question' => 'How old _____ you?',
+                        'Answers' => array(
+                            'A' => 'am',
+                            'B' => 'is',
+                            'C' => 'are'
                         ),
                         'CorrectAnswer' => 'C'
+                    ),
+                    4 => array(
+                        'Question' => 'Good _____! How are you?',
+                        'Answers' => array(
+                            'A' => 'morning',
+                            'B' => 'season',
+                            'C' => 'blanket'
+                        ),
+                        'CorrectAnswer' => 'A'
+                    ),
+                    5 => array(
+                        'Question' => 'Nice to _____ you.',
+                        'Answers' => array(
+                            'A' => 'know',
+                            'B' => 'meet',
+                            'C' => 'see'
+                        ),
+                        'CorrectAnswer' => 'B'
                     )
-
                 );
+
 
                 if (isset($_POST['answers'])) {
                     $Answers = $_POST['answers'];
@@ -235,7 +212,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m1-a2.php" class="proximo-link">Ir para a lição 2</a></p>
+                    <p><a href="m1-a2.php" class="proximo-link">Ir para a lição 3</a></p>
                 </div>
 
             </main>
