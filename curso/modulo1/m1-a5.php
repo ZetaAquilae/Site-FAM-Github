@@ -47,11 +47,11 @@ $error_msg = "";
                 <ul>
                     <li class="modulo"><a href="../../curso.php">Início</a></li>
                     <li class="modulo"><a href="m1-a1.php">Módulo 1</a></li>
-                    <li class="nav-active"><a href="m1-a1.php">Lição 1</a></li>
-                    <li><a href="m1-a2.php">Lição 2</a></li>
+                    <li><a href="m1-a1.php">Lição 1</a></li>
+                    <li><a href="m1-a2.php">Lição 1</a></li>
                     <li><a href="m1-a3.php">Lição 3</a></li>
                     <li><a href="m1-a4.php">Lição 4</a></li>
-                    <li><a href="m1-a5.php">Lição 5</a></li>
+                    <li class="nav-active"><a href="m1-a5.php">Lição 5</a></li>
                     <li><a href="m1-a6.php">Lição 6</a></li>
                     <li><a href="m1-a7.php">Lição 7</a></li>
                     <li><a href="m1-a8.php">Lição 8</a></li>
@@ -67,69 +67,56 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 1</h2>
-                <h3>Lição 1 - Present Simple (Simple Present)</h3>
+                <h3>Lição 5 - No Restaurante</h3>
 
-                <h4><strong>Objetivo:</strong></h4>
-                <p>Aprender a usar o tempo verbal Present Simple (presente simples) para falar sobre hábitos, rotinas e fatos gerais.</p>
-                <h4><strong>Conteúdo:</strong></h4>
-                <p><strong>1. Estrutura do Present Simple:</strong></p>
-                <ul>
-                    <li>
-                        <p><strong>Afirmativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Sujeito + verbo (na forma base) + complemento</p>
-                            </li>
-                            <li>
-                                <p>Ex.: I work, She plays, They study</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p><strong>Negativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Sujeito + do/does + not + verbo (na forma base) + complemento</p>
-                            </li>
-                            <li>
-                                <p>Ex.: I do not (don&rsquo;t) work, She does not (doesn&rsquo;t) play, They do not (don&rsquo;t) study</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p><strong>Interrogativa:</strong></p>
-                        <ul>
-                            <li>
-                                <p>Do/Does + sujeito + verbo (na forma base) + complemento?</p>
-                            </li>
-                            <li>
-                                <p>Ex.: Do you work?, Does she play?, Do they study?</p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <p><strong>2. Uso do Present Simple:</strong></p>
-                <ul>
-                    <li>
-                        <p>Para falar sobre hábitos e rotinas.</p>
-                    </li>
-                    <li>
-                        <p>Para expressar verdades universais ou fatos gerais.</p>
-                    </li>
-                </ul>
-                <p><strong>3. Exemplos:</strong></p>
-                <ul>
-                    <li>
-                        <p>I wake up at 7 AM every day. (Eu acordo às 7h todos os dias.)</p>
-                    </li>
-                    <li>
-                        <p>She likes chocolate. (Ela gosta de chocolate.)</p>
-                    </li>
-                    <li>
-                        <p>They study English on weekends. (Eles estudam inglês nos fins de semana.)</p>
-                    </li>
-                </ul>
+                <h4>Objetivo:</h4>
 
+                <p>Aprender vocabulário e expressões úteis para usar em um restaurante.</p>
+
+                <h4>Conteúdo:</h4>
+
+                <h4>1. Vocabulário Comum:</h4>
+
+                <p>Menu (cardápio)</p>
+
+                <p>Waiter/Waitress (garçom/garçonete)</p>
+
+                <p>Bill (conta)</p>
+
+                <p>Table (mesa)</p>
+
+                <p>Reservation (reserva)</p>
+
+                <p>Drink (bebida)</p>
+
+                <p>Food (comida)</p>
+
+                <p>Appetizer (entrada)</p>
+
+                <p>Main Course (prato principal)</p>
+
+                <p>Dessert (sobremesa)</p>
+
+                <h4>2. Frases Úteis:</h4>
+
+                <p>Can I see the menu, please? (Posso ver o cardápio, por favor?)</p>
+
+                <p>I would like to make a reservation. (Gostaria de fazer uma reserva.)</p>
+
+                <p>I would like to order... (Gostaria de pedir...)</p>
+
+                <p>Can I have the bill, please? (Posso ter a conta, por favor?)</p>
+
+                <p>What do you recommend? (O que você recomenda?)</p>
+
+                <h4>3. Exemplo de Diálogo:</h4>
+
+                <p>Waiter: Good evening! Can I take your order? <br>
+                    Customer: Yes, I would like to order a steak with a side of vegetables, please. <br>
+                    Waiter: Sure. Would you like anything to drink? <br>
+                    Customer: I'll have a glass of red wine, please. <br>
+                    Waiter: Excellent choice. Anything for dessert? <br>
+                    Customer: Yes, I'll have the chocolate cake.</p>
                 <br><br>
                 <hr>
                 <h2>Exercícios</h2>
@@ -138,52 +125,50 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'He _______ (to play) soccer every Saturday.',
+                        'Question' => 'O que você pede quando quer ver a lista de pratos?',
                         'Answers' => array(
-                            'A' => 'plays',
-                            'B' => 'play',
-                            'C' => 'played'
+                            'A' => 'Bill',
+                            'B' => 'Menu',
+                            'C' => 'Table'
                         ),
-                        'CorrectAnswer' => 'A'
-
+                        'CorrectAnswer' => 'B'
                     ),
                     2 => array(
-                        'Question' => 'Qual a forma correta da frase negativa: "They (to go) to school by bus"?',
+                        'Question' => 'Quem traz sua comida em um restaurante?',
                         'Answers' => array(
-                            'A' => 'They do go to school by bus.',
-                            'B' => 'They does not go to school by bus.',
-                            'C' => 'They do not go to school by bus.'
+                            'A' => 'Chef',
+                            'B' => 'Customer',
+                            'C' => 'Waiter'
                         ),
                         'CorrectAnswer' => 'C'
                     ),
                     3 => array(
-                        'Question' => '______ (to do) you like pizza?',
+                        'Question' => 'Você quer pagar. O que você pede?',
                         'Answers' => array(
-                            'A' => 'Do',
-                            'B' => 'Does',
-                            'C' => 'Doing'
-                        ),
-                        'CorrectAnswer' => 'A'
-                    ),
-                    4 => array(
-                        'Question' => 'She _______ (to work) at a bank.',
-                        'Answers' => array(
-                            'A' => 'work',
-                            'B' => 'works',
-                            'C' => 'worked'
+                            'A' => 'Reservation',
+                            'B' => 'Bill',
+                            'C' => 'Appetizer'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
-                    5 => array(
-                        'Question' => '_____ he ______ (to study) English every day?',
+                    4 => array(
+                        'Question' => 'Como você chama a parte principal da sua refeição?',
                         'Answers' => array(
-                            'A' => 'Do / study',
-                            'B' => 'Does / studies',
-                            'C' => 'Does / study'
+                            'A' => 'Appetizer',
+                            'B' => 'Dessert',
+                            'C' => 'Main Course'
                         ),
                         'CorrectAnswer' => 'C'
+                    ),
+                    5 => array(
+                        'Question' => 'Se você quiser pedir uma sugestão, você diz:',
+                        'Answers' => array(
+                            'A' => 'Can I see the menu, please?',
+                            'B' => 'What do you recommend?',
+                            'C' => 'Can I have the bill, please?'
+                        ),
+                        'CorrectAnswer' => 'B'
                     )
-
                 );
 
                 if (isset($_POST['answers'])) {
@@ -235,7 +220,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m1-a2.php" class="proximo-link">Ir para a lição 2</a></p>
+                    <p><a href="m1-a6.php" class="proximo-link">Ir para a lição 6</a></p>
                 </div>
 
             </main>

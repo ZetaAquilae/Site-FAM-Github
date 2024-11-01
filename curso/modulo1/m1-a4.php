@@ -36,7 +36,7 @@ $error_msg = "";
         <?php
 
         if (empty($_SESSION['id_usuario'])) {
-            echo '<p class="texto-alerta mensagens">' . $error_msg . 'Você não está logado. <a href="login.php">Fazer login.</a></p>';
+            echo '<p class="texto-alerta mensagens">' . $error_msg . 'Você não está logado. <a href="../../login.php">Fazer login.</a></p>';
         } else {
 
             echo ('<p class="mensagens">Você está logado como ' . $_SESSION['email'] . '.</p>');

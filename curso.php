@@ -78,7 +78,7 @@ $error_msg = "";
                 <p>Esperamos que você aproveite cada momento e tire o máximo proveito do seu aprendizado. Estamos aqui para apoiá-lo em cada etapa do caminho. Prepare-se para transformar seu futuro com o inglês!</p>
 
                 <div class="proximo">
-                    <p>Ir para a lição 1</p>
+                    <p><a href="curso/modulo1/m1-a1.php" class="proximo-link">Ir para a lição 1</a></p>
                 </div>
 
             </main>
