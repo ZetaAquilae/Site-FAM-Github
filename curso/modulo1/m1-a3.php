@@ -48,8 +48,8 @@ $error_msg = "";
                     <li class="modulo"><a href="../../curso.php">Início</a></li>
                     <li class="modulo"><a href="m1-a1.php">Módulo 1</a></li>
                     <li><a href="m1-a1.php">Lição 1</a></li>
-                    <li class="nav-active"><a href="m1-a2.php">Lição 2</a></li>
-                    <li><a href="m1-a3.php">Lição 3</a></li>
+                    <li><a href="m1-a2.php">Lição 1</a></li>
+                    <li class="nav-active"><a href="m1-a3.php">Lição 3</a></li>
                     <li><a href="m1-a4.php">Lição 4</a></li>
                     <li><a href="m1-a5.php">Lição 5</a></li>
                     <li><a href="m1-a6.php">Lição 6</a></li>
@@ -67,47 +67,45 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 1</h2>
-                <h3>Lição 2 - Introduções Básicas</h3>
+                <h3>Lição 3 - Verb To Be (Presente)</h3>
 
-                <h4>Objetivo3:</h4>
+                <h4>Objetivo: </h4>
 
-                <p>Aprender a se apresentar e conhecer outras pessoas em inglês.</p>
+                <p>Aprender a usar o verbo &quot;to be&quot; no presente para descrever estados e identificar pessoas e coisas.</p>
 
-                <h4>Conteúdo:</h4>
-                <h4>1. Saudações:</h4>
+                <h4>1. Estrutura do Verbo To Be:</h4>
 
-                <p>Hello / Hi</p>
+                <h4>Afirmativa:</h4>
 
-                <p>Good morning / Good afternoon / Good evening</p>
+                <p>Sujeito + verbo to be (am/is/are) + complemento</p>
 
-                <p>How are you?</p>
+                <p>Ex.: I am a student, She is happy, They are friends</p>
 
-                <h4>2. Apresentando-se:</h4>
+                <h4>Negativa:</h4>
 
-                <p>My name is...</p>
+                <p>Sujeito + verbo to be (am/is/are) + not + complemento</p>
 
-                <p>I am from...</p>
+                <p>Ex.: I am not a teacher, He is not (isn't) tired, We are not (aren't) late</p>
 
-                <p>I am ... years old.</p>
+                <h4>Interrogativa:</h4>
 
-                <h4>3. Perguntando sobre a outra pessoa:</h4>
+                <p>Verbo to be (am/is/are) + sujeito + complemento?</p>
 
-                <p>What is your name?</p>
+                <p>Ex.: Am I right?, Is she a doctor?, Are they here?</p>
 
-                <p>Where are you from?</p>
+                <h4>2. Uso do Verbo To Be:</h4>
 
-                <p>How old are you?</p>
+                <p>Para descrever estados, condi&ccedil;&otilde;es e identidades.</p>
 
+                <p>Para fazer perguntas e dar respostas simples.</p>
 
-                <h4>Exemplo de Diálogo:</h4>
-                <p>John: Hello! My name is John. What is your name? </p>
-                <p>Sarah: Hi John! My name is Sarah. </p>
-                <p>John: Nice to meet you, Sarah. Where are you from? </p>
-                <p>Sarah: I am from Brazil. And you? </p>
-                <p>John: I am from the USA. How old are you, Sarah? </p>
-                <p>Sarah: I am 25 years old. And you? </p>
-                <p>John: I am 30 years old.</p>
+                <h4>3. Exemplos:</h4>
 
+                <p>I am a teacher. (Eu sou professor.)</p>
+
+                <p>She is at home. (Ela est&aacute; em casa.)</p>
+
+                <p>They are happy. (Eles est&atilde;o felizes.)</p>
                 <br><br>
                 <hr>
                 <h2>Exercícios</h2>
@@ -116,16 +114,7 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'Hello! My name _____ John.',
-                        'Answers' => array(
-                            'A' => 'am',
-                            'B' => 'is',
-                            'C' => 'are'
-                        ),
-                        'CorrectAnswer' => 'B'
-                    ),
-                    2 => array(
-                        'Question' => 'I _____ from Brazil.',
+                        'Question' => 'I _______ (to be) a student.',
                         'Answers' => array(
                             'A' => 'am',
                             'B' => 'is',
@@ -133,8 +122,17 @@ $error_msg = "";
                         ),
                         'CorrectAnswer' => 'A'
                     ),
+                    2 => array(
+                        'Question' => 'She _______ (to be) my friend.',
+                        'Answers' => array(
+                            'A' => 'am',
+                            'B' => 'is',
+                            'C' => 'are'
+                        ),
+                        'CorrectAnswer' => 'B'
+                    ),
                     3 => array(
-                        'Question' => 'How old _____ you?',
+                        'Question' => 'They _______ (to be) late.',
                         'Answers' => array(
                             'A' => 'am',
                             'B' => 'is',
@@ -143,25 +141,24 @@ $error_msg = "";
                         'CorrectAnswer' => 'C'
                     ),
                     4 => array(
-                        'Question' => 'Good _____! How are you?',
+                        'Question' => 'He _______ (to be) not happy.',
                         'Answers' => array(
-                            'A' => 'morning',
-                            'B' => 'season',
-                            'C' => 'blanket'
-                        ),
-                        'CorrectAnswer' => 'A'
-                    ),
-                    5 => array(
-                        'Question' => 'Nice to _____ you.',
-                        'Answers' => array(
-                            'A' => 'know',
-                            'B' => 'meet',
-                            'C' => 'see'
+                            'A' => 'am',
+                            'B' => 'is',
+                            'C' => 'are'
                         ),
                         'CorrectAnswer' => 'B'
+                    ),
+                    5 => array(
+                        'Question' => '_______ you (to be) a doctor?',
+                        'Answers' => array(
+                            'A' => 'Am',
+                            'B' => 'Is',
+                            'C' => 'Are'
+                        ),
+                        'CorrectAnswer' => 'C'
                     )
                 );
-
 
                 if (isset($_POST['answers'])) {
                     $Answers = $_POST['answers'];
@@ -212,7 +209,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m1-a3.php" class="proximo-link">Ir para a lição 3</a></p>
+                    <p><a href="m1-a4.php" class="proximo-link">Ir para a lição 4</a></p>
                 </div>
 
             </main>
