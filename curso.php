@@ -33,7 +33,6 @@ $error_msg = "";
             </div>
         </header>
 
-
         <?php
 
         if (empty($_SESSION['id_usuario'])) {
@@ -42,27 +41,26 @@ $error_msg = "";
 
             echo ('<p class="mensagens">Você está logado como ' . $_SESSION['email'] . '.</p>');
 
-
-
         ?>
 
             <nav>
                 <ul>
-                    <li class="modulo"><a href="">Módulo 1</a></li>
-                    <li><a href="">Aula 1</a></li>
-                    <li><a href="">Aula 2</a></li>
-                    <li><a href="">Aula 3</a></li>
-                    <li><a href="">Aula 4</a></li>
-                    <li><a href="">Aula 5</a></li>
-                    <li><a href="">Aula 6</a></li>
-                    <li><a href="">Aula 7</a></li>
-                    <li><a href="">Aula 8</a></li>
-                    <li><a href="">Aula 9</a></li>
-                    <li><a href="">Aula 10</a></li>
-                    <li class="modulo"><a href="">Módulo 2</a></li>
-                    <li class="modulo"><a href="">Módulo 3</a></li>
-                    <li class="modulo"><a href="">Módulo 4</a></li>
-                    <li class="modulo"><a href="">Módulo 5</a></li>
+                    <li class="modulo"><a href="curso.php">Início</a></li>
+                    <li class="modulo"><a href="curso/modulo1/m1-a1.php">Módulo 1</a></li>
+                    <li><a href="curso/modulo1/m1-a1.php">Aula 1</a></li>
+                    <li><a href="curso/modulo1/m1-a2.php">Aula 2</a></li>
+                    <li><a href="curso/modulo1/m1-a3.php">Aula 3</a></li>
+                    <li><a href="curso/modulo1/m1-a4.php">Aula 4</a></li>
+                    <li><a href="curso/modulo1/m1-a5.php">Aula 5</a></li>
+                    <li><a href="curso/modulo1/m1-a6.php">Aula 6</a></li>
+                    <li><a href="curso/modulo1/m1-a7.php">Aula 7</a></li>
+                    <li><a href="curso/modulo1/m1-a8.php">Aula 8</a></li>
+                    <li><a href="curso/modulo1/m1-a9.php">Aula 9</a></li>
+                    <li><a href="curso/modulo1/m1-a10.php">Aula 10</a></li>
+                    <li class="modulo"><a href="curso/modulo2/m2-a1.php">Módulo 2</a></li>
+                    <li class="modulo"><a href="curso/modulo2/m3-a1.php">Módulo 3</a></li>
+                    <li class="modulo"><a href="curso/modulo2/m4-a1.php">Módulo 4</a></li>
+                    <li class="modulo"><a href="curso/modulo2/m5-a1.php">Módulo 5</a></li>
                 </ul>
             </nav>
 
@@ -85,7 +83,6 @@ $error_msg = "";
 
             </main>
         <?php
-
 
         }
 
