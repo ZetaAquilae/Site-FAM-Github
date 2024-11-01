@@ -4,54 +4,6 @@ require_once('geral/connectdb.php');
 session_start();
 $error_msg = "";
 
-
-if (!isset($_SESSION['id_user'])) {
-
-    if (isset($_POST['submit'])) {
-
-        $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-        $email = mysqli_real_escape_string($dbc, trim($_POST['email']));
-        $senha = mysqli_real_escape_string($dbc, trim($_POST['senha']));
-
-        if (!empty($email) && !empty($senha)) {
-
-
-            $query = "SELECT id_usuario, nome, senha, email FROM alunos WHERE email = '$email'";
-
-            $data = mysqli_query($dbc, $query);
-
-            if (mysqli_num_rows($data) == 1) {
-
-                $row = mysqli_fetch_array($data);
-
-                if ($row['senha'] === SHA1($senha)) {
-
-                    $hashed_password = password_hash($senha, PASSWORD_DEFAULT);
-                    $query = "UPDATE alunos SET senha = '$hashed_password' WHERE email = '" . $email . "'";
-                    mysqli_query($dbc, $query);
-                } else if (password_verify($senha, $row['senha'])) {
-
-                    $_SESSION['id_usuario'] = $row['id_usuario'];
-                    $_SESSION['email'] = $row['email'];
-
-                    setcookie('id_usuario', $row['id_usuario'], time() + (60 * 60 * 24 * 7));    // expires in 30 days
-                    setcookie('email', $row['email'], time() + (60 * 60 * 24 * 7));  // expires in 30 days
-
-                    $home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/curso.php';
-                    header('Location: ' . $home_url);
-                } else {
-                    $error_msg = 'Senha inválida. Tente novamente.';
-                }
-            } else {
-                $error_msg = 'E-mail ou nome de usuário inválidos. Tente novamente.';
-            }
-        } else {
-            $error_msg = 'Você precisa digitar o nome de usuário e senha para entrar.';
-        }
-    }
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -116,7 +68,6 @@ if (!isset($_SESSION['id_user'])) {
 
             <main>
 
-
                 <h3>Bem-vindo!</h3>
                 <p>Olá e bem-vindo ao primeiro passo para dominar a língua inglesa! 🎉 </p>
                 <p>Aqui, você encontrará:</p>
@@ -128,6 +79,9 @@ if (!isset($_SESSION['id_user'])) {
 
                 <p>Esperamos que você aproveite cada momento e tire o máximo proveito do seu aprendizado. Estamos aqui para apoiá-lo em cada etapa do caminho. Prepare-se para transformar seu futuro com o inglês!</p>
 
+                <div class="proximo">
+                    <p>Ir para a lição 1</p>
+                </div>
 
             </main>
         <?php
@@ -137,8 +91,6 @@ if (!isset($_SESSION['id_user'])) {
 
         mysqli_close($dbc);
         ?>
-
-
 
         <footer>
             <p id="copyright">Todos os direitos reservados <script>
