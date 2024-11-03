@@ -58,9 +58,9 @@ $error_msg = "";
                     <li><a href="m1-a9.php">Lição 9</a></li>
                     <li class="nav-active"><a href="m1-a10.php">Lição 10</a></li>
                     <li class="modulo"><a href="../modulo2/m2-a1.php">Módulo 2</a></li>
-                    <li class="modulo"><a href="../modulo2/m3-a1.php">Módulo 3</a></li>
-                    <li class="modulo"><a href="../modulo2/m4-a1.php">Módulo 4</a></li>
-                    <li class="modulo"><a href="../modulo2/m5-a1.php">Módulo 5</a></li>
+                    <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
+                    <li class="modulo"><a href="../modulo4/m4-a1.php">Módulo 4</a></li>
+                    <li class="modulo"><a href="../modulo5/m5-a1.php">Módulo 5</a></li>
                 </ul>
             </nav>
 

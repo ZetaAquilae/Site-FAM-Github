@@ -47,7 +47,6 @@ $error_msg = "";
                 <ul>
                     <li class="modulo"><a href="../../curso.php">Início</a></li>
                     <li class="modulo"><a href="../modulo1/m1-a1.php">Módulo 1</a></li>
-
                     <li class="modulo"><a href="m2-a1.php">Módulo 2</a></li>
                     <li class="nav-active"><a href="m2-a1.php">Lição 11</a></li>
                     <li><a href="m2-a2.php">Lição 12</a></li>
@@ -59,9 +58,9 @@ $error_msg = "";
                     <li><a href="m2-a8.php">Lição 18</a></li>
                     <li><a href="m2-a9.php">Lição 19</a></li>
                     <li><a href="m2-a10.php">Lição 20</a></li>
-                    <li class="modulo"><a href="../modulo2/m3-a1.php">Módulo 3</a></li>
-                    <li class="modulo"><a href="../modulo2/m4-a1.php">Módulo 4</a></li>
-                    <li class="modulo"><a href="../modulo2/m5-a1.php">Módulo 5</a></li>
+                    <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
+                    <li class="modulo"><a href="../modulo4/m4-a1.php">Módulo 4</a></li>
+                    <li class="modulo"><a href="../modulo5/m5-a1.php">Módulo 5</a></li>
                 </ul>
             </nav>
 
@@ -208,7 +207,7 @@ $error_msg = "";
                     echo $results;
                 } else {
                 ?>
-                    <form action="<?php echo $_SERVER['../modulo1/PHP_SELF']; ?>" method="post" id="quiz">
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" id="quiz">
                         <?php foreach ($Questions as $QuestionNo => $Value) { ?>
 
                             <p class="pergunta"><?php echo $Value['Question']; ?></p>
