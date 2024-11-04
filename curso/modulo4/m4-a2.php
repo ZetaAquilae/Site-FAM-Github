@@ -50,8 +50,8 @@ $error_msg = "";
                     <li class="modulo"><a href="../modulo2/m2-a1.php">Módulo 2</a></li>
                     <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
                     <li class="modulo"><a href="m4-a1.php">Módulo 4</a></li>
-                    <li class="nav-active"><a href="m4-a1.php">Lição 31</a></li>
-                    <li><a href="m4-a2.php">Lição 32</a></li>
+                    <li><a href="m4-a1.php">Lição 31</a></li>
+                    <li class="nav-active"><a href="m4-a2.php">Lição 32</a></li>
                     <li><a href="m4-a3.php">Lição 33</a></li>
                     <li><a href="m4-a4.php">Lição 34</a></li>
                     <li><a href="m4-a5.php">Lição 35</a></li>
@@ -67,56 +67,56 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 3</h2>
-                <h3>Lição 31 - Profissões</h3>
+                <h3>Lição 32 - Lugares na Cidade</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender os nomes das profissões em inglês e como usá-los em frases.</p>
+                <p>Aprender os nomes de lugares comuns na cidade em inglês e como usá-los em frases.</p>
 
                 <h4>Conteúdo:</h4>
 
-                <h4>1. Nomes das Profissões:</h4>
+                <h4>1. Nomes dos Lugares na Cidade:</h4>
 
-                <p>Teacher (professor)</p>
+                <p>Hospital (hospital)</p>
 
-                <p>Doctor (médico)</p>
+                <p>School (escola)</p>
 
-                <p>Engineer (engenheiro)</p>
+                <p>Bank (banco)</p>
 
-                <p>Nurse (enfermeira)</p>
+                <p>Restaurant (restaurante)</p>
 
-                <p>Lawyer (advogado)</p>
+                <p>Supermarket (supermercado)</p>
 
-                <p>Police officer (policial)</p>
+                <p>Park (parque)</p>
 
-                <p>Chef (chefe de cozinha)</p>
+                <p>Library (biblioteca)</p>
 
-                <p>Artist (artista)</p>
+                <p>Post office (correios)</p>
 
-                <p>Accountant (contador)</p>
+                <p>Train station (estação de trem)</p>
 
-                <p>Driver (motorista)</p>
+                <p>Cinema (cinema)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>I am a teacher. (Eu sou professor.)</p>
+                <p>I need to go to the hospital. (Eu preciso ir ao hospital.)</p>
 
-                <p>She is a doctor. (Ela é médica.)</p>
+                <p>She studies at the school. (Ela estuda na escola.)</p>
 
-                <p>He works as an engineer. (Ele trabalha como engenheiro.)</p>
+                <p>He works at the bank. (Ele trabalha no banco.)</p>
 
-                <p>My mother is a nurse. (Minha mãe é enfermeira.)</p>
+                <p>We are going to the restaurant. (Nós vamos ao restaurante.)</p>
 
-                <p>The lawyer is very experienced. (O advogado é muito experiente.)</p>
+                <p>They shop at the supermarket. (Eles fazem compras no supermercado.)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: What do you do for a living? (O que você faz para viver?) <br>
-                    Person B: I am a teacher. (Eu sou professor.) <br>
-                    Person A: Where do you work? (Onde você trabalha?) <br>
-                    Person B: I work at a school. (Eu trabalho em uma escola.) <br>
-                    Person A: What does your father do? (O que seu pai faz?) <br>
-                    Person B: He is a police officer. (Ele é policial.)</p>
+                <p>Person A: Where is the nearest park? (Onde fica o parque mais próximo?) <br>
+                    Person B: The park is near the library. (O parque é perto da biblioteca.) <br>
+                    Person A: Do you know where the post office is? (Você sabe onde ficam os correios?) <br>
+                    Person B: Yes, it is next to the bank. (Sim, fica ao lado do banco.) <br>
+                    Person A: Let's go to the cinema tonight. (Vamos ao cinema hoje à noite.) <br>
+                    Person B: That sounds great! (Parece ótimo!)</p>
                 <br><br>
                 <hr>
 
@@ -126,47 +126,47 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'She is a _______. (Ela é uma médica.)',
+                        'Question' => 'I need to go to the _______. (Eu preciso ir ao hospital.)',
                         'Answers' => array(
-                            'A' => 'teacher',
-                            'B' => 'engineer',
-                            'C' => 'doctor'
-                        ),
-                        'CorrectAnswer' => 'C'
-                    ),
-                    2 => array(
-                        'Question' => 'He works as an _______. (Ele trabalha como engenheiro.)',
-                        'Answers' => array(
-                            'A' => 'engineer',
-                            'B' => 'artist',
-                            'C' => 'chef'
+                            'A' => 'hospital',
+                            'B' => 'school',
+                            'C' => 'bank'
                         ),
                         'CorrectAnswer' => 'A'
                     ),
-                    3 => array(
-                        'Question' => 'My mother is a _______. (Minha mãe é uma enfermeira.)',
+                    2 => array(
+                        'Question' => 'She studies at the _______. (Ela estuda na escola.)',
                         'Answers' => array(
-                            'A' => 'lawyer',
-                            'B' => 'nurse',
-                            'C' => 'accountant'
+                            'A' => 'library',
+                            'B' => 'school',
+                            'C' => 'supermarket'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
-                    4 => array(
-                        'Question' => 'The _______ is very experienced. (O advogado é muito experiente.)',
+                    3 => array(
+                        'Question' => 'He works at the _______. (Ele trabalha no banco.)',
                         'Answers' => array(
-                            'A' => 'police officer',
-                            'B' => 'driver',
-                            'C' => 'lawyer'
+                            'A' => 'restaurant',
+                            'B' => 'cinema',
+                            'C' => 'bank'
                         ),
                         'CorrectAnswer' => 'C'
                     ),
-                    5 => array(
-                        'Question' => 'I am a _______. (Eu sou um professor.)',
+                    4 => array(
+                        'Question' => 'We are going to the _______. (Nós vamos ao restaurante.)',
                         'Answers' => array(
-                            'A' => 'artist',
-                            'B' => 'driver',
-                            'C' => 'teacher'
+                            'A' => 'supermarket',
+                            'B' => 'restaurant',
+                            'C' => 'park'
+                        ),
+                        'CorrectAnswer' => 'B'
+                    ),
+                    5 => array(
+                        'Question' => 'The _______ is near the library. (O parque é perto da biblioteca.)',
+                        'Answers' => array(
+                            'A' => 'hospital',
+                            'B' => 'train station',
+                            'C' => 'park'
                         ),
                         'CorrectAnswer' => 'C'
                     )
@@ -221,7 +221,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m4-a2.php" class="proximo-link">Ir para a lição 32</a></p>
+                    <p><a href="m4-a3.php" class="proximo-link">Ir para a lição 33</a></p>
                 </div>
 
             </main>
