@@ -48,18 +48,18 @@ $error_msg = "";
                     <li class="modulo"><a href="../../curso.php">Início</a></li>
                     <li class="modulo"><a href="../modulo1/m1-a1.php">Módulo 1</a></li>
                     <li class="modulo"><a href="../modulo2/m2-a1.php">Módulo 2</a></li>
-                    <li class="modulo"><a href="m3-a1.php">Módulo 3</a></li>
-                    <li><a href="m3-a1.php">Lição 21</a></li>
-                    <li><a href="m3-a2.php">Lição 22</a></li>
-                    <li><a href="m3-a3.php">Lição 23</a></li>
-                    <li><a href="m3-a4.php">Lição 24</a></li>
-                    <li><a href="m3-a5.php">Lição 25</a></li>
-                    <li><a href="m3-a6.php">Lição 26</a></li>
-                    <li><a href="m3-a7.php">Lição 27</a></li>
-                    <li class="nav-active"><a href="m3-a8.php">Lição 28</a></li>
-                    <li><a href="m3-a9.php">Lição 29</a></li>
-                    <li><a href="m3-a10.php">Lição 30</a></li>
-                    <li class="modulo"><a href="../modulo4/m4-a1.php">Módulo 4</a></li>
+                    <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
+                    <li class="nav-active"><a href="m4-a1.php">Lição 31</a></li>
+                    <li><a href="m4-a2.php">Lição 32</a></li>
+                    <li><a href="m4-a3.php">Lição 33</a></li>
+                    <li><a href="m4-a4.php">Lição 34</a></li>
+                    <li><a href="m4-a5.php">Lição 35</a></li>
+                    <li><a href="m4-a6.php">Lição 36</a></li>
+                    <li><a href="m4-a7.php">Lição 37</a></li>
+                    <li><a href="m4-a8.php">Lição 38</a></li>
+                    <li><a href="m4-a9.php">Lição 39</a></li>
+                    <li><a href="m4-a10.php">Lição 40</a></li>
+                    <li class="modulo"><a href="m4-a1.php">Módulo 4</a></li>
                     <li class="modulo"><a href="../modulo5/m5-a1.php">Módulo 5</a></li>
                 </ul>
             </nav>
@@ -67,56 +67,56 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 3</h2>
-                <h3>Lição 28 - Objetos Escolares</h3>
+                <h3>Lição 31 - Profissões</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender os nomes dos objetos escolares em inglês e como usá-los em frases.</p>
+                <p>Aprender os nomes das profissões em inglês e como usá-los em frases.</p>
 
                 <h4>Conteúdo:</h4>
 
-                <h4>1. Nomes dos Objetos Escolares:</h4>
+                <h4>1. Nomes das Profissões:</h4>
 
-                <p>Pencil (lápis)</p>
+                <p>Teacher (professor)</p>
 
-                <p>Pen (caneta)</p>
+                <p>Doctor (médico)</p>
 
-                <p>Notebook (caderno)</p>
+                <p>Engineer (engenheiro)</p>
 
-                <p>Eraser (borracha)</p>
+                <p>Nurse (enfermeira)</p>
 
-                <p>Ruler (régua)</p>
+                <p>Lawyer (advogado)</p>
 
-                <p>Backpack (mochila)</p>
+                <p>Police officer (policial)</p>
 
-                <p>Book (livro)</p>
+                <p>Chef (chefe de cozinha)</p>
 
-                <p>Desk (escrivaninha)</p>
+                <p>Artist (artista)</p>
 
-                <p>Chair (cadeira)</p>
+                <p>Accountant (contador)</p>
 
-                <p>Marker (marcador)</p>
+                <p>Driver (motorista)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>I have a pencil. (Eu tenho um lápis.)</p>
+                <p>I am a teacher. (Eu sou professor.)</p>
 
-                <p>She writes in her notebook. (Ela escreve no caderno dela.)</p>
+                <p>She is a doctor. (Ela é médica.)</p>
 
-                <p>Can I borrow your eraser? (Posso pegar sua borracha emprestada?)</p>
+                <p>He works as an engineer. (Ele trabalha como engenheiro.)</p>
 
-                <p>The ruler is on the desk. (A régua está na escrivaninha.)</p>
+                <p>My mother is a nurse. (Minha mãe é enfermeira.)</p>
 
-                <p>My backpack is blue. (Minha mochila é azul.)</p>
+                <p>The lawyer is very experienced. (O advogado é muito experiente.)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: Do you have a pen? (Você tem uma caneta?) <br>
-                    Person B: Yes, I have a pen. (Sim, eu tenho uma caneta.) <br>
-                    Person A: Can I borrow your notebook? (Posso pegar seu caderno emprestado?) <br>
-                    Person B: Sure, here it is. (Claro, aqui está.) <br>
-                    Person A: Where is your backpack? (Onde está sua mochila?) <br>
-                    Person B: My backpack is under the desk. (Minha mochila está debaixo da escrivaninha.)</p>
+                <p>Person A: What do you do for a living? (O que você faz para viver?) <br>
+                    Person B: I am a teacher. (Eu sou professor.) <br>
+                    Person A: Where do you work? (Onde você trabalha?) <br>
+                    Person B: I work at a school. (Eu trabalho em uma escola.) <br>
+                    Person A: What does your father do? (O que seu pai faz?) <br>
+                    Person B: He is a police officer. (Ele é policial.)</p>
                 <br><br>
                 <hr>
 
@@ -126,49 +126,49 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'I have a _______. (Eu tenho um lápis.)',
+                        'Question' => 'She is a _______. (Ela é uma médica.)',
                         'Answers' => array(
-                            'A' => 'desk',
-                            'B' => 'pencil',
-                            'C' => 'chair'
+                            'A' => 'teacher',
+                            'B' => 'engineer',
+                            'C' => 'doctor'
                         ),
-                        'CorrectAnswer' => 'B'
+                        'CorrectAnswer' => 'C'
                     ),
                     2 => array(
-                        'Question' => 'She writes in her _______. (Ela escreve no _______ dela.)',
+                        'Question' => 'He works as an _______. (Ele trabalha como engenheiro.)',
                         'Answers' => array(
-                            'A' => 'book',
-                            'B' => 'notebook',
-                            'C' => 'marker'
+                            'A' => 'engineer',
+                            'B' => 'artist',
+                            'C' => 'chef'
                         ),
-                        'CorrectAnswer' => 'B'
+                        'CorrectAnswer' => 'A'
                     ),
                     3 => array(
-                        'Question' => 'Can I borrow your _______? (Posso pegar sua borracha emprestada?)',
+                        'Question' => 'My mother is a _______. (Minha mãe é uma enfermeira.)',
                         'Answers' => array(
-                            'A' => 'eraser',
-                            'B' => 'backpack',
-                            'C' => 'chair'
-                        ),
-                        'CorrectAnswer' => 'A'
-                    ),
-                    4 => array(
-                        'Question' => 'The _______ is on the desk. (A régua está na escrivaninha.)',
-                        'Answers' => array(
-                            'A' => 'pen',
-                            'B' => 'ruler',
-                            'C' => 'backpack'
+                            'A' => 'lawyer',
+                            'B' => 'nurse',
+                            'C' => 'accountant'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
-                    5 => array(
-                        'Question' => 'My backpack is _______. (Minha mochila é _______.)',
+                    4 => array(
+                        'Question' => 'The _______ is very experienced. (O advogado é muito experiente.)',
                         'Answers' => array(
-                            'A' => 'blue',
-                            'B' => 'pen',
-                            'C' => 'notebook'
+                            'A' => 'police officer',
+                            'B' => 'driver',
+                            'C' => 'lawyer'
                         ),
-                        'CorrectAnswer' => 'A'
+                        'CorrectAnswer' => 'C'
+                    ),
+                    5 => array(
+                        'Question' => 'I am a _______. (Eu sou um professor.)',
+                        'Answers' => array(
+                            'A' => 'artist',
+                            'B' => 'driver',
+                            'C' => 'teacher'
+                        ),
+                        'CorrectAnswer' => 'C'
                     )
                 );
 
@@ -221,7 +221,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m3-a9.php" class="proximo-link">Ir para a lição 29</a></p>
+                    <p><a href="m4-a2.php" class="proximo-link">Ir para a lição 32</a></p>
                 </div>
 
             </main>
@@ -233,8 +233,10 @@ $error_msg = "";
         ?>
 
         <footer>
-            <p id="copyright">Todos os direitos reservados 
-                <script>document.write(new Date().getFullYear());</script>
+            <p id="copyright">Todos os direitos reservados
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
             </p>
         </footer>
 

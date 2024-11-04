@@ -118,9 +118,8 @@ if (!isset($_SESSION['id_user'])) {
         </main>
 
         <footer>
-            <p id="copyright">Todos os direitos reservados <script>
-                    document.write(new Date().getFullYear());
-                </script>
+            <p id="copyright">Todos os direitos reservados 
+                <script>document.write(new Date().getFullYear());</script>
             </p>
         </footer>
 
