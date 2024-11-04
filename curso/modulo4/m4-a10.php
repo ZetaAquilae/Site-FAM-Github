@@ -58,8 +58,8 @@ $error_msg = "";
                     <li><a href="m4-a6.php">Lição 36</a></li>
                     <li><a href="m4-a7.php">Lição 37</a></li>
                     <li><a href="m4-a8.php">Lição 38</a></li>
-                    <li class="nav-active"><a href="m4-a9.php">Lição 39</a></li>
-                    <li><a href="m4-a10.php">Lição 40</a></li>
+                    <li><a href="m4-a9.php">Lição 39</a></li>
+                    <li class="nav-active"><a href="m4-a10.php">Lição 40</a></li>
                     <li class="modulo"><a href="../modulo5/m5-a1.php">Módulo 5</a></li>
                 </ul>
             </nav>
@@ -67,56 +67,55 @@ $error_msg = "";
             <main>
 
                 <h2>Módulo 3</h2>
-                <h3>Lição 39 - Filmes e Programas de TV</h3>
+                <h3>Lição 40 - Atividades de Fim de Semana</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender vocabulário e expressões relacionadas a filmes e programas de TV em inglês.</p>
+                <p>Aprender vocabulário e expressões relacionadas a atividades de fim de semana em inglês.</p>
 
                 <h4>Conteúdo:</h4>
 
-                <h4>1. Tipos de Filmes e Programas:</h4>
+                <h4>1. Vocabulário Comum:</h4>
 
-                <p>Movie (filme)</p>
+                <p>Go to the park (ir ao parque)</p>
 
-                <p>TV Show (programa de TV)</p>
+                <p>Watch a movie (assistir a um filme)</p>
 
-                <p>Comedy (comédia)</p>
+                <p>Visit friends (visitar amigos)</p>
 
-                <p>Drama (drama)</p>
+                <p>Go shopping (ir às compras)</p>
 
-                <p>Action (ação)</p>
+                <p>Read a book (ler um livro)</p>
 
-                <p>Horror (terror)</p>
+                <p>Play sports (praticar esportes)</p>
 
-                <p>Documentary (documentário)</p>
+                <p>Have a picnic (fazer um piquenique)</p>
 
-                <p>Cartoon (desenho animado)</p>
+                <p>Go to the beach (ir à praia)</p>
 
-                <p>Reality show (reality show)</p>
+                <p>Eat out (comer fora)</p>
 
-                <p>Series (série)</p>
+                <p>Relax at home (relaxar em casa)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>I like watching movies. (Eu gosto de assistir filmes.)</p>
+                <p>I like to go to the park. (Eu gosto de ir ao parque.)</p>
 
-                <p>What is your favorite TV show? (Qual é o seu programa de TV favorito?)</p>
+                <p>She enjoys watching movies. (Ela gosta de assistir filmes.)</p>
 
-                <p>She loves comedy films. (Ela adora filmes de comédia.)</p>
+                <p>We visit friends on weekends. (Nós visitamos amigos nos fins de semana.)</p>
 
-                <p>They are watching a drama series. (Eles estão assistindo a uma série de drama.)</p>
+                <p>They go shopping every Saturday. (Eles vão às compras todo sábado.)</p>
 
-                <p>We enjoy watching documentaries. (Nós gostamos de assistir documentários.)</p>
+                <p>He loves playing sports. (Ele adora praticar esportes.)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: What do you want to watch tonight? (O que você quer assistir hoje à noite?) <br>
-                    Person B: I want to watch an action movie. (Eu quero assistir um filme de ação.) <br>
-                    Person A: Do you like horror movies? (Você gosta de filmes de terror?) <br>
-                    Person B: No, I prefer comedy or drama. (Não, eu prefiro comédia ou drama.) <br>
-                    Person A: What is your favorite TV show? (Qual é o seu programa de TV favorito?) <br>
-                    Person B: My favorite TV show is a documentary series about nature. (Meu programa de TV favorito é uma série documental sobre natureza.)</p>
+                <p>Person A: What do you like to do on weekends? (O que você gosta de fazer nos fins de semana?) <br>
+                    Person B: I like to go to the beach and have a picnic. (Eu gosto de ir à praia e fazer um piquenique.) <br>
+                    Person A: Do you often visit friends? (Você visita amigos com frequência?) <br>
+                    Person B: Yes, I visit friends and we watch movies together. (Sim, eu visito amigos e assistimos filmes juntos.) <br>
+                    Person A: That sounds fun! (Isso parece divertido!)</p>
                 <br><br>
                 <hr>
 
@@ -126,49 +125,49 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'I like watching _______. (Eu gosto de assistir _______.)',
+                        'Question' => 'I like to go to the _______. (Eu gosto de ir ao parque.)',
                         'Answers' => array(
-                            'A' => 'movies',
-                            'B' => 'books',
-                            'C' => 'games'
+                            'A' => 'park',
+                            'B' => 'movie',
+                            'C' => 'beach'
                         ),
                         'CorrectAnswer' => 'A'
                     ),
                     2 => array(
-                        'Question' => 'What is your favorite _______? (Qual é o seu programa de TV favorito?)',
+                        'Question' => 'She enjoys _______ movies. (Ela gosta de _______ filmes.)',
                         'Answers' => array(
-                            'A' => 'food',
-                            'B' => 'TV show',
-                            'C' => 'color'
+                            'A' => 'going',
+                            'B' => 'watching',
+                            'C' => 'reading'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
                     3 => array(
-                        'Question' => 'She loves _______ films. (Ela adora filmes de comédia.)',
+                        'Question' => 'We _______ friends on weekends. (Nós visitamos amigos nos fins de semana.)',
                         'Answers' => array(
-                            'A' => 'comedy',
-                            'B' => 'music',
-                            'C' => 'art'
+                            'A' => 'visit',
+                            'B' => 'play',
+                            'C' => 'have'
                         ),
                         'CorrectAnswer' => 'A'
                     ),
                     4 => array(
-                        'Question' => 'They are watching a _______ series. (Eles estão assistindo a uma série de _______.)',
+                        'Question' => 'They go _______ every Saturday. (Eles vão _______ todo sábado.)',
                         'Answers' => array(
-                            'A' => 'drama',
-                            'B' => 'sports',
-                            'C' => 'news'
-                        ),
-                        'CorrectAnswer' => 'A'
-                    ),
-                    5 => array(
-                        'Question' => 'We enjoy watching _______. (Nós gostamos de assistir documentários.)',
-                        'Answers' => array(
-                            'A' => 'reality shows',
-                            'B' => 'documentaries',
-                            'C' => 'cartoons'
+                            'A' => 'reading',
+                            'B' => 'shopping',
+                            'C' => 'relaxing'
                         ),
                         'CorrectAnswer' => 'B'
+                    ),
+                    5 => array(
+                        'Question' => 'He loves _______ sports. (Ele adora _______ esportes.)',
+                        'Answers' => array(
+                            'A' => 'playing',
+                            'B' => 'watching',
+                            'C' => 'eating'
+                        ),
+                        'CorrectAnswer' => 'A'
                     )
                 );
 
@@ -221,7 +220,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m4-a10.php" class="proximo-link">Ir para a lição 40</a></p>
+                    <p><a href="../modulo5/m5-a1.php" class="proximo-link">Ir para a lição 41</a></p>
                 </div>
 
             </main>
