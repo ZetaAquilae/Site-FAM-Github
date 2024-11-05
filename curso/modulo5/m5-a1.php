@@ -49,74 +49,73 @@ $error_msg = "";
                     <li class="modulo"><a href="../modulo1/m1-a1.php">Módulo 1</a></li>
                     <li class="modulo"><a href="../modulo2/m2-a1.php">Módulo 2</a></li>
                     <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
-                    <li class="modulo"><a href="m4-a1.php">Módulo 4</a></li>
-                    <li><a href="m4-a1.php">Lição 31</a></li>
-                    <li><a href="m4-a2.php">Lição 32</a></li>
-                    <li><a href="m4-a3.php">Lição 33</a></li>
-                    <li class="nav-active"><a href="m4-a4.php">Lição 34</a></li>
-                    <li><a href="m4-a5.php">Lição 35</a></li>
-                    <li><a href="m4-a6.php">Lição 36</a></li>
-                    <li><a href="m4-a7.php">Lição 37</a></li>
-                    <li><a href="m4-a8.php">Lição 38</a></li>
-                    <li><a href="m4-a9.php">Lição 39</a></li>
-                    <li><a href="m4-a10.php">Lição 40</a></li>
-                    <li class="modulo"><a href="../modulo5/m5-a1.php">Módulo 5</a></li>
+                    <li class="modulo"><a href="../modulo4/m4-a1.php">Módulo 4</a></li>
+                    <li class="modulo"><a href="m5-a1.php">Módulo 5</a></li>
+                    <li class="nav-active"><a href="m5-a1.php">Lição 41</a></li>
+                    <li><a href="m5-a2.php">Lição 42</a></li>
+                    <li><a href="m5-a3.php">Lição 43</a></li>
+                    <li><a href="m5-a4.php">Lição 44</a></li>
+                    <li><a href="m5-a5.php">Lição 45</a></li>
+                    <li><a href="m5-a6.php">Lição 46</a></li>
+                    <li><a href="m5-a7.php">Lição 47</a></li>
+                    <li><a href="m5-a8.php">Lição 48</a></li>
+                    <li><a href="m5-a9.php">Lição 49</a></li>
+                    <li><a href="m4-a10.php">Lição 50</a></li>
                 </ul>
             </nav>
 
             <main>
 
-                <h2>Módulo 4</h2>
-                <h3>Lição 34 - Países e Nacionalidades</h3>
+                <h2>Módulo 5</h2>
+                <h3>Lição 41 - Festas de Aniversário</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender os nomes dos países e suas nacionalidades em inglês e como usá-los em frases.</p>
+                <p>Aprender vocabulário e expressões relacionadas a festas de aniversário em inglês.</p>
 
                 <h4>Conteúdo:</h4>
 
-                <p>1. Nomes dos Países e Nacionalidades:</p>
+                <h4>1. Vocabulário Comum:</h4>
 
-                <p>Brazil (Brasil) - Brazilian (brasileiro)</p>
+                <p>Birthday (aniversário)</p>
 
-                <p>United States (Estados Unidos) - American (americano)</p>
+                <p>Party (festa)</p>
 
-                <p>Canada (Canadá) - Canadian (canadense)</p>
+                <p>Cake (bolo)</p>
 
-                <p>England (Inglaterra) - English (inglês)</p>
+                <p>Balloons (balões)</p>
 
-                <p>France (França) - French (francês)</p>
+                <p>Gifts (presentes)</p>
 
-                <p>Germany (Alemanha) - German (alemão)</p>
+                <p>Invitation (convite)</p>
 
-                <p>Italy (Itália) - Italian (italiano)</p>
+                <p>Candles (velas)</p>
 
-                <p>Japan (Japão) - Japanese (japonês)</p>
+                <p>Sing (cantar)</p>
 
-                <p>China (China) - Chinese (chinês)</p>
+                <p>Celebrate (celebrar)</p>
 
-                <p>Mexico (México) - Mexican (mexicano)</p>
+                <p>Games (jogos)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>I am from Brazil. (Eu sou do Brasil.)</p>
+                <p>Happy birthday! (Feliz aniversário!)</p>
 
-                <p>She is American. (Ela é americana.)</p>
+                <p>She is having a birthday party. (Ela está tendo uma festa de aniversário.)</p>
 
-                <p>They are from Canada. (Eles são do Canadá.)</p>
+                <p>Let's sing "Happy Birthday". (Vamos cantar "Parabéns para Você".)</p>
 
-                <p>He is French. (Ele é francês.)</p>
+                <p>He is blowing out the candles. (Ele está apagando as velas.)</p>
 
-                <p>We live in Japan. (Nós moramos no Japão.)</p>
+                <p>They brought many gifts. (Eles trouxeram muitos presentes.)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: Where are you from? (De onde você é?) <br>
-                    Person B: I am from Italy. (Eu sou da Itália.) <br>
-                    Person A: Are you Italian? (Você é italiano?) <br>
-                    Person B: Yes, I am Italian. (Sim, eu sou italiano.) <br>
-                    Person A: Where do you live now? (Onde você mora agora?) <br>
-                    Person B: I live in the United States. (Eu moro nos Estados Unidos.)</p>
+                <p>Person A: When is your birthday? (Quando é seu aniversário?) <br>
+                    Person B: My birthday is next week. (Meu aniversário é na próxima semana.) <br>
+                    Person A: Are you having a party? (Você vai fazer uma festa?) <br>
+                    Person B: Yes, I am having a birthday party at my house. (Sim, vou fazer uma festa de aniversário na minha casa.) <br>
+                    Person A: That sounds fun! (Isso parece divertido!)</p>
                 <br><br>
                 <hr>
 
@@ -126,49 +125,49 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'I am from _______. (Eu sou do Brasil.)',
+                        'Question' => 'Happy _______! (Feliz _______!)',
                         'Answers' => array(
-                            'A' => 'Brazil',
-                            'B' => 'Canada',
-                            'C' => 'Italy'
+                            'A' => 'birthday',
+                            'B' => 'party',
+                            'C' => 'cake'
                         ),
                         'CorrectAnswer' => 'A'
                     ),
                     2 => array(
-                        'Question' => 'She is _______. (Ela é americana.)',
+                        'Question' => 'She is having a _______ party. (Ela está tendo uma festa de _______.)',
                         'Answers' => array(
-                            'A' => 'American',
-                            'B' => 'French',
-                            'C' => 'Mexican'
+                            'A' => 'gifts',
+                            'B' => 'birthday',
+                            'C' => 'candles'
                         ),
-                        'CorrectAnswer' => 'A'
+                        'CorrectAnswer' => 'B'
                     ),
                     3 => array(
-                        'Question' => 'They are from _______. (Eles são do Canadá.)',
+                        'Question' => 'Let\'s sing _______. (Vamos cantar _______.)',
                         'Answers' => array(
-                            'A' => 'Japan',
-                            'B' => 'China',
-                            'C' => 'Canada'
+                            'A' => 'games',
+                            'B' => 'invitation',
+                            'C' => 'Happy Birthday'
                         ),
                         'CorrectAnswer' => 'C'
                     ),
                     4 => array(
-                        'Question' => 'He is _______. (Ele é francês.)',
+                        'Question' => 'He is blowing out the _______. (Ele está apagando as _______.)',
                         'Answers' => array(
-                            'A' => 'English',
-                            'B' => 'German',
-                            'C' => 'French'
-                        ),
-                        'CorrectAnswer' => 'C'
-                    ),
-                    5 => array(
-                        'Question' => 'We live in _______. (Nós moramos no Japão.)',
-                        'Answers' => array(
-                            'A' => 'Germany',
-                            'B' => 'Japan',
-                            'C' => 'Italy'
+                            'A' => 'balloons',
+                            'B' => 'candles',
+                            'C' => 'games'
                         ),
                         'CorrectAnswer' => 'B'
+                    ),
+                    5 => array(
+                        'Question' => 'They brought many _______. (Eles trouxeram muitos _______.)',
+                        'Answers' => array(
+                            'A' => 'presents',
+                            'B' => 'songs',
+                            'C' => 'candles'
+                        ),
+                        'CorrectAnswer' => 'A'
                     )
                 );
 
@@ -221,7 +220,7 @@ $error_msg = "";
                 ?>
 
                 <div class="proximo">
-                    <p><a href="m4-a5.php" class="proximo-link">Ir para a lição 35</a></p>
+                    <p><a href="m5-a2.php" class="proximo-link">Ir para a lição 42</a></p>
                 </div>
 
             </main>

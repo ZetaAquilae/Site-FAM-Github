@@ -66,7 +66,7 @@ $error_msg = "";
 
             <main>
 
-                <h2>Módulo 3</h2>
+                <h2>Módulo 4</h2>
                 <h3>Lição 37 - Esportes</h3>
 
                 <h4>Objetivo:</h4>
