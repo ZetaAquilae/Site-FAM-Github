@@ -51,7 +51,7 @@ $error_msg = "";
                     <li class="modulo"><a href="../modulo3/m3-a1.php">Módulo 3</a></li>
                     <li class="modulo"><a href="../modulo4/m4-a1.php">Módulo 4</a></li>
                     <li class="modulo"><a href="m5-a1.php">Módulo 5</a></li>
-                    <li class="nav-active"><a href="m5-a1.php">Lição 41</a></li>
+                    <li><a href="m5-a1.php">Lição 41</a></li>
                     <li><a href="m5-a2.php">Lição 42</a></li>
                     <li><a href="m5-a3.php">Lição 43</a></li>
                     <li><a href="m5-a4.php">Lição 44</a></li>
@@ -60,62 +60,62 @@ $error_msg = "";
                     <li><a href="m5-a7.php">Lição 47</a></li>
                     <li><a href="m5-a8.php">Lição 48</a></li>
                     <li><a href="m5-a9.php">Lição 49</a></li>
-                    <li><a href="m5-a10.php">Lição 50</a></li>
+                    <li class="nav-active"><a href="m5-a10.php">Lição 50</a></li>
                 </ul>
             </nav>
 
             <main>
 
                 <h2>Módulo 5</h2>
-                <h3>Lição 41 - Festas de Aniversário</h3>
+                <h3>Lição 50 - Despedidas</h3>
 
                 <h4>Objetivo:</h4>
 
-                <p>Aprender vocabulário e expressões relacionadas a festas de aniversário em inglês.</p>
+                <p>Aprender vocabulário e expressões relacionadas a despedidas em inglês.</p>
 
                 <h4>Conteúdo:</h4>
 
-                <h4>1. Vocabulário Comum:</h4>
+                <h4>1. Frases Comuns de Despedida:</h4>
 
-                <p>Birthday (aniversário)</p>
+                <p>Goodbye (adeus)</p>
 
-                <p>Party (festa)</p>
+                <p>Bye (tchau)</p>
 
-                <p>Cake (bolo)</p>
+                <p>See you later (até mais tarde)</p>
 
-                <p>Balloons (balões)</p>
+                <p>Take care (cuide-se)</p>
 
-                <p>Gifts (presentes)</p>
+                <p>Have a good day (tenha um bom dia)</p>
 
-                <p>Invitation (convite)</p>
+                <p>Farewell (despedida)</p>
 
-                <p>Candles (velas)</p>
+                <p>See you soon (até breve)</p>
 
-                <p>Sing (cantar)</p>
+                <p>Safe travels (boa viagem)</p>
 
-                <p>Celebrate (celebrar)</p>
+                <p>Have a nice trip (tenha uma boa viagem)</p>
 
-                <p>Games (jogos)</p>
+                <p>It was nice meeting you (foi bom conhecer você)</p>
 
                 <h4>2. Frases Úteis:</h4>
 
-                <p>Happy birthday! (Feliz aniversário!)</p>
+                <p>I have to go now. (Eu tenho que ir agora.)</p>
 
-                <p>She is having a birthday party. (Ela está tendo uma festa de aniversário.)</p>
+                <p>Let's stay in touch. (Vamos manter contato.)</p>
 
-                <p>Let's sing "Happy Birthday". (Vamos cantar "Parabéns para Você".)</p>
+                <p>Don't be a stranger. (Não desapareça.)</p>
 
-                <p>He is blowing out the candles. (Ele está apagando as velas.)</p>
+                <p>I'll miss you. (Vou sentir sua falta.)</p>
 
-                <p>They brought many gifts. (Eles trouxeram muitos presentes.)</p>
+                <p>Until next time. (Até a próxima.)</p>
 
                 <h4>3. Exemplo de Diálogo:</h4>
 
-                <p>Person A: When is your birthday? (Quando é seu aniversário?) <br>
-                    Person B: My birthday is next week. (Meu aniversário é na próxima semana.) <br>
-                    Person A: Are you having a party? (Você vai fazer uma festa?) <br>
-                    Person B: Yes, I am having a birthday party at my house. (Sim, vou fazer uma festa de aniversário na minha casa.) <br>
-                    Person A: That sounds fun! (Isso parece divertido!)</p>
+                <p>Person A: I have to go now. (Eu tenho que ir agora.) <br>
+                    Person B: Goodbye! (Adeus!) <br>
+                    Person A: See you later. (Até mais tarde.) <br>
+                    Person B: Take care. (Cuide-se.) <br>
+                    Person A: You too. Have a good day! (Você também. Tenha um bom dia!)</p>
                 <br><br>
                 <hr>
 
@@ -125,49 +125,49 @@ $error_msg = "";
 
                 $Questions = array(
                     1 => array(
-                        'Question' => 'Happy _______! (Feliz _______!)',
+                        'Question' => 'Adeus',
                         'Answers' => array(
-                            'A' => 'birthday',
-                            'B' => 'party',
-                            'C' => 'cake'
+                            'A' => 'Hello',
+                            'B' => 'Goodbye',
+                            'C' => 'Please'
                         ),
-                        'CorrectAnswer' => 'A'
+                        'CorrectAnswer' => 'B'
                     ),
                     2 => array(
-                        'Question' => 'She is having a _______ party. (Ela está tendo uma festa de _______.)',
+                        'Question' => 'Have a _______ day. (Tenha um _______ dia.)',
                         'Answers' => array(
-                            'A' => 'gifts',
-                            'B' => 'birthday',
-                            'C' => 'candles'
+                            'A' => 'bad',
+                            'B' => 'nice',
+                            'C' => 'boring'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
                     3 => array(
-                        'Question' => 'Let\'s sing _______. (Vamos cantar _______.)',
+                        'Question' => 'See you _______. (Até mais tarde.)',
                         'Answers' => array(
-                            'A' => 'games',
-                            'B' => 'invitation',
-                            'C' => 'Happy Birthday'
+                            'A' => 'later',
+                            'B' => 'today',
+                            'C' => 'never'
                         ),
-                        'CorrectAnswer' => 'C'
+                        'CorrectAnswer' => 'A'
                     ),
                     4 => array(
-                        'Question' => 'He is blowing out the _______. (Ele está apagando as _______.)',
+                        'Question' => 'Safe _______. (Boa _______.)',
                         'Answers' => array(
-                            'A' => 'balloons',
-                            'B' => 'candles',
-                            'C' => 'games'
+                            'A' => 'night',
+                            'B' => 'travels',
+                            'C' => 'food'
                         ),
                         'CorrectAnswer' => 'B'
                     ),
                     5 => array(
-                        'Question' => 'They brought many _______. (Eles trouxeram muitos _______.)',
+                        'Question' => 'It was nice _______ you. (Foi bom _______ você.)',
                         'Answers' => array(
-                            'A' => 'presents',
-                            'B' => 'songs',
-                            'C' => 'candles'
+                            'A' => 'see',
+                            'B' => 'help',
+                            'C' => 'meeting'
                         ),
-                        'CorrectAnswer' => 'A'
+                        'CorrectAnswer' => 'C'
                     )
                 );
 
@@ -219,8 +219,9 @@ $error_msg = "";
                 }
                 ?>
 
-                <div class="proximo">
-                    <p><a href="m5-a2.php" class="proximo-link">Ir para a lição 42</a></p>
+                <div class="align-center">
+                    <br><br>
+                    <p>Parabéns! Você chegou ao fim do curso de Inglês nível iniciante. <a href="mailto:vhsdvd1@gmail.com">Clique para pedir seu certificado</a></p>
                 </div>
 
             </main>

@@ -60,7 +60,7 @@ $error_msg = "";
                     <li><a href="m5-a7.php">Lição 47</a></li>
                     <li><a href="m5-a8.php">Lição 48</a></li>
                     <li class="nav-active"><a href="m5-a9.php">Lição 49</a></li>
-                    <li><a href="m4-a10.php">Lição 50</a></li>
+                    <li><a href="m5-a10.php">Lição 50</a></li>
                 </ul>
             </nav>
 

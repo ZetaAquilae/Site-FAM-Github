@@ -104,7 +104,7 @@ if (!isset($_SESSION['id_user'])) {
 
                 </form>
 
-                <p>Não tem conta? <a href="mailto:ingles123@gmail.com">Matricule-se</a></p>
+                <p>Não tem conta? <a href="mailto:vhsdvd1@gmail.com">Matricule-se</a></p>
                 
             <?php
             } else {
